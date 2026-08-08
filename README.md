@@ -11,7 +11,7 @@ framing, and MP4 rendering.
 
 ![Clippy landing page](docs/assets/clippy-landing.png)
 
-## What it does
+## What it does?
 
 - Upload MP4, MOV, WebM, or MKV source video.
 - Extract audio with FFmpeg.
