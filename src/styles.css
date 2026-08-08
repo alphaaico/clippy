@@ -33,31 +33,13 @@ header {
 .brand {
   display: flex;
   align-items: center;
-  gap: 9px;
-  font-weight: 800;
-  font-size: 22px;
-  letter-spacing: -1.3px;
+  width: 156px;
+  height: 42px;
 }
-.mark {
-  display: grid;
-  place-items: center;
-  width: 34px;
-  height: 34px;
-  background: #27295c;
-  border-radius: 10px;
-  transform: rotate(-5deg);
-}
-.mark img {
-  width: 22px;
-  filter: brightness(0) invert(1);
-}
-.brand em {
-  font: 500 10px "DM Mono";
-  background: #e8e2ff;
-  color: #5f52b6;
-  border-radius: 5px;
-  padding: 3px 5px;
-  letter-spacing: 0;
+.brand-logo {
+  display: block;
+  width: 156px;
+  height: 42px;
 }
 .header-actions {
   display: flex;

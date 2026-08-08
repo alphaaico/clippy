@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="src/assets/clippy-logo.svg" alt="Clippy logo" width="156">
+</p>
+
 # Clippy
 
 Clippy is a local proof-of-concept for turning long-form video into short-form

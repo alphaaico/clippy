@@ -11,6 +11,7 @@ import {
   WandSparkles,
   X,
 } from "lucide-react";
+import clippyLogo from "./assets/clippy-logo.svg";
 import "./styles.css";
 
 type Word = { word: string; start: number; end: number };
@@ -292,11 +293,7 @@ function App() {
     <main>
       <header>
         <div className="brand">
-          <div className="mark">
-            <img src="https://www.svgrepo.com/show/526412/video-library.svg" />
-          </div>
-          <span>clippy</span>
-          <em>beta</em>
+          <img className="brand-logo" src={clippyLogo} alt="Clippy beta" />
         </div>
         <div className="header-actions">
           <button className="ghost">How it works</button>
