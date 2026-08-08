@@ -5,6 +5,8 @@ clips. It combines a React/Vite interface with a FastAPI backend for upload,
 transcription, AI-assisted clip selection, caption generation, face-aware
 framing, and MP4 rendering.
 
+![Clippy landing page](docs/assets/clippy-landing.png)
+
 ## What it does
 
 - Upload MP4, MOV, WebM, or MKV source video.
@@ -67,22 +69,6 @@ Vite on port 5173. Press `Ctrl+C` once to stop both processes.
 The first transcription run may download the configured Faster-Whisper model.
 Generated uploads, audio extracts, subtitles, and rendered clips are written to
 `data/uploads/` and `data/outputs/`, both of which are ignored by git.
-
-## macOS helper scripts
-
-For a local macOS setup, double-click `bootstrap_clippy.command` once to create
-the Python environment and install JavaScript packages. After setup,
-double-click `run_clippy.command` to start the app.
-
-To create a self-contained macOS ZIP for direct sharing:
-
-```bash
-./scripts/package_shareable.sh
-```
-
-The ZIP is written to `dist/Clippy-macOS.zip`. It includes local runtime
-dependencies for convenience, but those generated package contents should not be
-committed to the repository.
 
 ## Configuration
 
