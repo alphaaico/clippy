@@ -7,7 +7,7 @@
 Clippy is a local proof-of-concept for turning long-form video into short-form
 clips. It combines a React/Vite interface with a FastAPI backend for upload,
 transcription, AI-assisted clip selection, caption generation, face-aware
-framing, and MP4 rendering.
+framing and MP4 rendering.
 
 ![Clippy landing page](docs/assets/clippy-landing.png)
 
