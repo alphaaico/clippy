@@ -1,0 +1,11 @@
+Clippy
+Copyright 2026 Alpha AI
+
+This product includes OpenCV Haar cascade data:
+
+  Stump-based 24x24 frontal face detector
+  Created by Rainer Lienhart
+  Copyright (C) 2000, Intel Corporation, all rights reserved.
+
+The OpenCV Haar cascade file is distributed with its original license notice in
+backend/video/assets/haarcascade_frontalface_default.xml.

@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+python-dotenv>=1.0
+groq>=0.11
+faster-whisper>=1.1
+# Kept available for future Tasks-based tracking. The POC uses OpenCV's bundled
+# detector so framing works across current MediaPipe wheel API changes.
+mediapipe==0.10.35
+opencv-python-headless>=4.10

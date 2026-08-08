@@ -1,0 +1,30 @@
+{
+  "name": "clippy",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local AI-assisted short-form video clipper proof of concept.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alphaaico/clippy.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:all": "sh scripts/dev.sh",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}
